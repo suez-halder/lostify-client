@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <div>
             <h1>Home Page</h1>
-            <Button>Click</Button>
+            <Button variant="contained">Click</Button>
         </div>
     );
 };
