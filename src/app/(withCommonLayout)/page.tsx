@@ -6,6 +6,8 @@ const HomePage = () => {
         <>
             <h1>Home Page</h1>
             <Button>Post Your Ad</Button>
+            <Button>Post Your Ad</Button>
+            <Button>Post Your Ad</Button>
         </>
     );
 };
