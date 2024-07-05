@@ -14,40 +14,27 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { useState } from "react";
 import { Stack } from "@mui/material";
+import Image from "next/image";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
     return (
         <Container>
             <Stack
-                py={2}
                 direction="row"
                 justifyContent="space-between"
                 alignItems="center"
             >
-                <Typography
-                    variant="h6"
-                    noWrap
-                    component="a"
-                    href="#app-bar-with-responsive-menu"
-                    sx={{
-                        mr: 2,
-                        display: { xs: "none", md: "flex" },
-                        fontFamily: "monospace",
-                        fontWeight: 700,
-                        letterSpacing: ".3rem",
-                        color: "inherit",
-                        textDecoration: "none",
-                    }}
-                >
-                    Lostify
-                </Typography>
+                <Box>
+                    <Image src={logo} alt="logo" width="180" height="180" />
+                </Box>
                 <Stack direction="row" spacing={4}>
                     <Typography variant="h6">Home</Typography>
                     <Typography variant="h6">Lost Items</Typography>
                     <Typography variant="h6">Found Items</Typography>
                 </Stack>
 
-                <Button>Post to Ad</Button>
+                <Button>Post Your Ad</Button>
             </Stack>
         </Container>
     );
