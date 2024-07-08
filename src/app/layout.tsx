@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Lostify | Home Page",
+    title: "Lostify | Main",
     description: "Lost and found website for everyone",
 };
 
