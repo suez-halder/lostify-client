@@ -32,6 +32,7 @@ const theme = createTheme({
         },
     },
     typography: {
+        fontFamily: '"Baloo Bhaijaan 2", sans-serif',
         body1: {
             color: "#778087",
         },
