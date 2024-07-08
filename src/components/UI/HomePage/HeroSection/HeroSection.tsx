@@ -21,6 +21,7 @@ const HeroSection = () => {
                         md={8}
                         sx={{
                             position: "relative",
+                            top: "50px",
                         }}
                     >
                         {/* title and subtitle */}
